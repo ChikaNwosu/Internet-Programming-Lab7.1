@@ -17,7 +17,7 @@ Instructor: Washington Valencia
     <!-- Link favicon-->
     <link rel="shortcut icon" type="image/x-icon"
         href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
-
+        <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -54,7 +54,7 @@ Instructor: Washington Valencia
                 management.</p>
 
             <!-- Add more contacts dynamically -->
-            <ul class="list-group">
+            <ul class="list-group" id="contact-list">
                 <li class="list-group-item">
                     Maxwell Wright / (0191) 719 6495 / agent1.@cctb.ca
                 </li>
@@ -65,6 +65,15 @@ Instructor: Washington Valencia
                     Helen Richards / (0191) 0800 1111 / agent3.@cctb.ca
                 </li>
             </ul>
+
+
+            <div class="col-12 col-md-4 text-align-end">
+                <button class="btn btn-primary rounded-pill d-inline-flex align-items-end px-4" id="add-contact">
+                    <span class="me-2">Add Contact</span>
+                </button>
+                <button class="btn btn-danger rounded-pill d-inline-flex align-items-end px-4" id="delete-all-contacts">
+                    <span class="me-2">Delete All Contacts</span>
+                </button>
 
         </div>
 
